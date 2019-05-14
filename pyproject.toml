@@ -10,9 +10,22 @@ module = "pyprojectstats"
 author = "Christoph Deil"
 author-email = "Deil.Christoph@gmail.com"
 home-page = "https://github.com/cdeil/pyprojectstats"
-classifiers = ["License :: OSI Approved :: MIT License"]
 requires-python = ">=3.7"
 description-file = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.flit.scripts]
 pyprojectstats = "pyprojectstats.__main__:cli"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
