@@ -2,6 +2,8 @@
 requires = [
     "flit",
     "click",
+    "dataclasses; python_version < '3.7'",
+    "Cython",
 ]
 build-backend = "flit.buildapi"
 
@@ -10,7 +12,7 @@ module = "pyprojectstats"
 author = "Christoph Deil"
 author-email = "Deil.Christoph@gmail.com"
 home-page = "https://github.com/cdeil/pyprojectstats"
-requires-python = ">=3.7"
+requires-python = ">=3.6"
 description-file = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
