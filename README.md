@@ -83,3 +83,22 @@ Development of `pyprojectstats` just started, it's not in a usable state yet.
   (https://christophdeil.com/) via Github, Twitter or Email
 - Issues with bug reports and feature requests welcome!
 - Pull requests welcome!
+
+## Other packages
+
+Some other packages and scripts that do similar things.
+
+This is mostly a link collection for myself - I didn't look in detail at most of these yet.
+
+- https://github.com/python/black (Do they expose a tree for code analysis that includes comments?)
+- https://github.com/rubik/radon
+- https://github.com/XAMPPRocky/tokei
+- https://github.com/tonybaloney/wily
+- https://stackoverflow.com/questions/5764437/python-code-statistics
+- https://github.com/ipmb/PyMetrics
+- https://wily.readthedocs.io
+- https://github.com/tsaulic/pycount
+- https://github.com/roskakori/pygount
+- http://code.activestate.com/recipes/580709-lines-of-code-loc/
+- https://gist.github.com/quandyfactory/1671909
+
