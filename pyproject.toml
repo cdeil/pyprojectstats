@@ -12,6 +12,7 @@ requires = [
     "click",
     "dataclasses; python_version < '3.7'",
     "Cython",
+    "pandas",
 ]
 description-file = "README.md"
 classifiers = [

@@ -35,7 +35,12 @@ That's what `pyprojectstats` does for you - it aims to make it quick and simple 
 get an overview of any Python project.
 
 This can be useful for a project maintainer for your own project, or as a developer
-or manager to evaluate and gauge the size of a new package you encounter.
+trying to evaluate and gauge the size of a new package you encounter.
+
+Also: implementing this is a fun side project, where I get to try out and learn a
+few things that are new to me: [dataclasses](https://docs.python.org/3/library/dataclasses.html),
+[flit](https://flit.readthedocs.io), [ast](https://docs.python.org/3/library/ast.html)
+
 
 ## Features
 
@@ -77,10 +82,10 @@ To use `pyprojectstats` as a Python package:
 
 ```python
 import pyprojectstats
-stats = pyprojectstats.Stats("black")
-stats.collect()
-stats.analyse()
-stats.report()
+project = pyprojectstats.Project("black")
+project.collect()
+project.analyse()
+project.report()
 ```
 
 I plan to add documentation for this project. For now, you'll just have to check
