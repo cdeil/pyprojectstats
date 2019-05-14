@@ -9,6 +9,17 @@ Quick and simple Python project statistics
 This is a command line application (`pyprojectstats`)
 and Python package (`import pyprojectstats`) that gives you a quick overview of a Python project.
 
+## tl;dr
+
+To use this, just `pip install pyprojectstats` (requires Python 3.6 or later),
+and point it at a project you're interested in:
+
+```
+pip install pyprojectstats
+cd /somewhere/someproject
+pyprojectstats .
+```
+
 ## Why?
 
 There are many other similar tools. Why create another one?
