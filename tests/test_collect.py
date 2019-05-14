@@ -1,8 +1,8 @@
+from pathlib import Path
 import pyprojectstats
-
-print(pyprojectstats)
 
 
 def test_collect():
-    result = pyprojectstats.find_files("spam")
-    assert result == ["spam.py", "ham.py"]
+    actual = pyprojectstats.find_files("tests/data/spam", "*.py")
+    expected = ["ham.py", "spam.py"]
+    assert actual == [Path("tests/data/spam") / _ for _ in expected]
