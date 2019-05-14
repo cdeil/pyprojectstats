@@ -2,7 +2,7 @@
 
 Quick and simple Python project statistics
 
-**Development just started, this README just describes the plan, it's not implemented yet!** 
+[![Build Status](https://dev.azure.com/cdeil/pyprojectstats/_apis/build/status/cdeil.pyprojectstats?branchName=master)](https://dev.azure.com/cdeil/pyprojectstats/_build/latest?definitionId=2&branchName=master)
 
 ## What is this?
 

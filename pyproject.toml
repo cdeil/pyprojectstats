@@ -1,10 +1,5 @@
 [build-system]
-requires = [
-    "flit",
-    "click",
-    "dataclasses; python_version < '3.7'",
-    "Cython",
-]
+requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
@@ -13,6 +8,11 @@ author = "Christoph Deil"
 author-email = "Deil.Christoph@gmail.com"
 home-page = "https://github.com/cdeil/pyprojectstats"
 requires-python = ">=3.6"
+requires = [
+    "click",
+    "dataclasses; python_version < '3.7'",
+    "Cython",
+]
 description-file = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
