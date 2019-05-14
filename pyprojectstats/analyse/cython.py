@@ -1,0 +1,1 @@
+"""Analyse a Cython file."""
