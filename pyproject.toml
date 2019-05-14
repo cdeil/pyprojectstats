@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "flit",
+    "click",
+]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pyprojectstats"
+author = "Christoph Deil"
+author-email = "Deil.Christoph@gmail.com"
+home-page = "https://github.com/cdeil/pyprojectstats"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.7"
+description-file = "README.md"
+
+[tool.flit.scripts]
+pyprojectstats = "pyprojectstats.__main__:cli"
